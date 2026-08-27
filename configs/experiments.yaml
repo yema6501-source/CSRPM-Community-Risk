@@ -1,1 +1,32 @@
+seeds: [13, 29, 41, 67, 83, 101, 127, 149, 173, 199]
+forecast_horizon_steps: 1
+history_window_steps: 8
+train_fraction: 0.70
+validation_fraction: 0.15
+test_fraction: 0.15
 
+evaluation:
+  confidence_level: 0.95
+  bootstrap_samples: 10000
+  paired_test: "wilcoxon"
+  multiplicity_correction: "holm"
+  primary_metric: "macro_f1"
+  secondary_metrics:
+    - balanced_accuracy
+    - roc_auc_ovr_macro
+    - pr_auc_macro
+    - ece
+    - brier
+    - nll
+
+robustness:
+  missing_rates: [0.0, 0.05, 0.10, 0.20, 0.30]
+  gaussian_noise_std: [0.0, 0.05, 0.10, 0.20]
+
+ablations:
+  - full_csrpm
+  - no_tensor_factorization
+  - no_spatial_regularization
+  - static_dependency
+  - no_temporal_encoder
+  - no_calibration

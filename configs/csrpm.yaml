@@ -1,0 +1,36 @@
+model:
+  name: CSRPM
+  classes: 3
+  hidden_dim: 64
+  temporal_layers: 1
+  dropout: 0.20
+
+tensor_factorization:
+  type: supervised_tucker
+  community_rank: 12
+  temporal_rank: 16
+  feature_rank: 10
+  reconstruction_weight: 0.15
+  spatial_regularization_weight: 0.02
+  l2_weight: 0.00001
+
+training:
+  optimizer: adamw
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 64
+  max_epochs: 300
+  early_stopping_patience: 30
+  gradient_clip_norm: 2.0
+  class_weighting: balanced
+  deterministic: true
+
+uncertainty:
+  calibration: temperature_scaling
+  mc_dropout_passes: 30
+  report_predictive_entropy: true
+  report_expected_entropy: true
+  report_mutual_information: true
+  report_ece: true
+  report_brier: true
+  report_nll: true

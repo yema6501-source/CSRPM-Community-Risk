@@ -1,0 +1,41 @@
+classical:
+  logistic_regression:
+    C: [0.1, 1.0, 10.0]
+    class_weight: ["balanced"]
+  random_forest:
+    n_estimators: [300, 500]
+    max_depth: [null, 12, 20]
+    min_samples_leaf: [1, 2, 4]
+  gradient_boosting:
+    n_estimators: [150, 250, 400]
+    learning_rate: [0.02, 0.035, 0.05]
+    max_depth: [2, 3]
+
+neural:
+  mlp:
+    hidden_dim: [64, 128]
+    dropout: [0.1, 0.2, 0.3]
+  lstm:
+    hidden_dim: [64, 128]
+    layers: [1, 2]
+  gru:
+    hidden_dim: [64, 128]
+    layers: [1, 2]
+
+graph:
+  gcn:
+    hidden_dim: [64, 128]
+    layers: [2, 3]
+  graphsage:
+    hidden_dim: [64, 128]
+    layers: [2, 3]
+  gat:
+    hidden_dim: [64, 128]
+    heads: [2, 4]
+
+transformer:
+  temporal_transformer:
+    d_model: [64, 128]
+    heads: [4, 8]
+    layers: [2, 3]
+    dropout: [0.1, 0.2]

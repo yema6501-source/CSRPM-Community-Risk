@@ -1,0 +1,24 @@
+chicago:
+  start_date: "2022-01-01"
+  end_date: "2025-12-31"
+  frequency: "W-MON"
+  page_size: 50000
+  timeout: 60
+  target_source: "Chicago Crimes - 2001 to Present"
+  target_dataset_id: "ijzp-q8t2"
+  auxiliary_sources:
+    - "311 Service Requests - Sanitation Code Complaints - Historical"
+    - "311 Service Requests - Abandoned Vehicles - Historical"
+    - "Census Data - Selected socioeconomic indicators in Chicago, 2008-2012"
+    - "Chicago Community Area boundaries"
+  target_definition: "future community-level reported incident burden"
+  privacy_unit: "community aggregate"
+  prohibited_target: "individual identity or individual dangerousness"
+
+synthetic:
+  n_communities: 12
+  n_days: 720
+  seed: 41
+  missing_rate: 0.03
+  shock_probability: 0.015
+  start_date: "2023-01-01"
