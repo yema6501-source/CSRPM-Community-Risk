@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this software is used in research, cite the associated manuscript and this repository version."
+title: "CSRPM Community Risk Reproducibility"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: "Guo"
+    given-names: "Xiaojian"
+  - family-names: "Ma"
+    given-names: "Ye"
+repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"

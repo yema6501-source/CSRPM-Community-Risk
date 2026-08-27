@@ -1,0 +1,147 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 116,
+    "sha256": "326f937469397a8c42e5d4c0de4f5b3a8e0e2670adc16193b9ae3f3de450789e"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 366,
+    "sha256": "c5dc86a3a8c6d87d585abf94728051fcb854a7a87db977e6a8cd9756cb68fcab"
+  },
+  {
+    "path": "CODE_AVAILABILITY.md",
+    "bytes": 960,
+    "sha256": "d6f6775f8840714f149671786a00bab021d480ab22d75d634f08f99e8cbb4f88"
+  },
+  {
+    "path": "DATASET_CARD.md",
+    "bytes": 3403,
+    "sha256": "544e32854eb164c235340f0cd8290547bc6ce31238f9e037965a32c8bbae638b"
+  },
+  {
+    "path": "ETHICS_AND_RESPONSIBLE_USE.md",
+    "bytes": 3496,
+    "sha256": "8274305350e806b11c4e346880d5c0e5d6dcf49cd6319ddb2ff36de86c15481f"
+  },
+  {
+    "path": "MODEL_CARD.md",
+    "bytes": 2428,
+    "sha256": "7c4d403abfa956ca1615c247f0cc4ee7e5ac87ec8b275f09da017b7b33a21e55"
+  },
+  {
+    "path": "README.md",
+    "bytes": 10646,
+    "sha256": "5b669562a0b48c5bcddccfb812d65af5722f2e391fa1de1898fdd7d59a191754"
+  },
+  {
+    "path": "REPRODUCIBILITY.md",
+    "bytes": 3364,
+    "sha256": "2c461c1e57dcd603de59ec2db8c78d158185becc1a6025ac018ac9112b69f9d0"
+  },
+  {
+    "path": "configs/baselines.yaml",
+    "bytes": 780,
+    "sha256": "3b01cda5cf9e62cba26403879fae8468a18002b06476106ebc167fe859d350ff"
+  },
+  {
+    "path": "configs/csrpm.yaml",
+    "bytes": 735,
+    "sha256": "3571334501ebca5d71245f521013fe94b9b7c6926e81b0fcac92161ecd349e8a"
+  },
+  {
+    "path": "configs/datasets.yaml",
+    "bytes": 787,
+    "sha256": "1643616826dafaf76d5a453f3cc5f4586f237cb1e6f45b0457709071941eda97"
+  },
+  {
+    "path": "configs/experiments.yaml",
+    "bytes": 700,
+    "sha256": "51630656534e7b0dd2d98d5b84b6c1bd97d78660856557629cc3b5a243ee8211"
+  },
+  {
+    "path": "download_data.py",
+    "bytes": 1188,
+    "sha256": "ce92b11c322434acdf08463b5bbaf6af9fe17e7de5ac0bae6d9affbc2068ba8b"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 233,
+    "sha256": "75d3724cd0b2612e4abaeccda8814d2adc1066f5c84322177503aacdd9de7942"
+  },
+  {
+    "path": "run_all.py",
+    "bytes": 7564,
+    "sha256": "3992389aaadd6b712534d970950e27b69964689719457dabe8b5e200de64ee88"
+  },
+  {
+    "path": "src/__init__.py",
+    "bytes": 59,
+    "sha256": "a6c5c809f8ffb8ee757a1afabdb060cbcf893c3e8fdc9864ff6d104843729a01"
+  },
+  {
+    "path": "src/ablation.py",
+    "bytes": 1407,
+    "sha256": "cc5af0a97c1e74f0ef0c73231c101a0e41847ac2a92791094b7fce3defeb185c"
+  },
+  {
+    "path": "src/baselines.py",
+    "bytes": 1506,
+    "sha256": "60bd2ac75f86e73038f226d71aacb1c482fcb4ea21fed96ee333542de60177c5"
+  },
+  {
+    "path": "src/csrpm_model.py",
+    "bytes": 3150,
+    "sha256": "1fbfd8b6da0f9568096a988d7e704ad365ac1d4569bfc04981ba6806074f48cf"
+  },
+  {
+    "path": "src/data_pipeline.py",
+    "bytes": 10590,
+    "sha256": "95555b465d5e978fd92d8f0d3752fe030db493b86fa5ae5c8f8b2a1f9903d7b5"
+  },
+  {
+    "path": "src/evaluation.py",
+    "bytes": 1723,
+    "sha256": "b79b7b0c8a5975a34f38fba1e3a9881808c0f1737f1eb65206e51792f9176eb5"
+  },
+  {
+    "path": "src/fairness_audit.py",
+    "bytes": 1590,
+    "sha256": "d488eececa05c92ef7730b0b7704f4115f2161bc020bd5e78fc417eb57933f98"
+  },
+  {
+    "path": "src/feature_engineering.py",
+    "bytes": 5533,
+    "sha256": "c17c3273c17bd46fa61f404491c08064aa8bde50ca3d960a88902ca230f9d051"
+  },
+  {
+    "path": "src/statistical_tests.py",
+    "bytes": 2166,
+    "sha256": "565da638f15e46852b74c6ba7f645122683929309bdbff78d1e5a86403483d89"
+  },
+  {
+    "path": "src/synthetic_data.py",
+    "bytes": 4142,
+    "sha256": "6ee607760b5ebdb4b5ebfbfaf1d04654e138d6e6b6e64f717b356684cb210eb8"
+  },
+  {
+    "path": "src/tensor_factorization.py",
+    "bytes": 3867,
+    "sha256": "aa4822ba9150d758d5b4c5dbb012b00240caa93491ab91ac8f188d7d87f66ce5"
+  },
+  {
+    "path": "src/uncertainty.py",
+    "bytes": 3296,
+    "sha256": "dde8e6594b26e25fe8f1eb38c4ff182effc5f66d2616bbc982a1ff32924b58e5"
+  },
+  {
+    "path": "src/utils.py",
+    "bytes": 1759,
+    "sha256": "604e5bc759987b0caa267c82208ba390ccd7beed1b4eeada4aa1dbd5936f7d09"
+  },
+  {
+    "path": "src/visualization.py",
+    "bytes": 1825,
+    "sha256": "8c4189270b1bae746a5177e268bc9ef6a8c35f5772fce032db0488abf7a1d18b"
+  }
+]
